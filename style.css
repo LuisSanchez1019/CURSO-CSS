@@ -1,20 +1,12 @@
-#blue{
-    color: green;
+.contac-from{
+    font-size: 25px;
 }
 
-
-.red{
-    color: red;
-}
-
-h1{
+.contact-from__h2{
+    font-size: 2em;
+    font-family:sans-serif;
+    line-height: 2;
+    font-weight: 900;
     color: blue;
-
 }
-[ranciobich="blue"]{
-
-    color: blue
-}
-
-
 
