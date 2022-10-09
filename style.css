@@ -1,17 +1,32 @@
-*{
-    font-family: 'Lobster',cursive;
+* {
+    font-family: 'Lobster', cursive;
     font-weight: 100;
     font-size: 30px;
 }
 
-h2{
-    display: inline;
-    height: 400px;
-    width: 100px;
-}
+h2 {
+    background-color: red;
+    display: inline-block;
 
-p{
-    height: 400px;
-    width: 190px;
-}
+    padding-bottom: 20px;
 
+    padding-left: 20px;
+
+    padding-top: 20px;
+
+    padding-right: 30px;
+
+
+    padding: 20px;
+    padding: 10px 50px;
+
+    /*
+    Anchura entre el borde inferior y el contenido del elemento : padding-bottom: 20px;
+
+    Anchura entre el borde izquierdo y el contenido del elemento: padding-left: 20px;
+    
+    Anchura entre el borde superior y el contenido del elemento : padding-top : 20px;
+    Anchura entre el borde derecho y el contenido del elemento: padding-right: 30px;
+    Anchura entre todo los bordes y el contenido 
+    padding: 20px;*/
+}
