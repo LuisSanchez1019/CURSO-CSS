@@ -4,16 +4,42 @@
     font-size: 30px;
 }
 
-/*width : Alto 
-height : Ancho*/
+/*------------Margin-------------------------------*/
+h1 {
+    background-color: rgb(255, 128, 0);
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 20px 10px;
+
+
+    /*----------Bordes--------------------------*/
+
+    border-radius: 2em;
+    border: 5px solid rgb(78, 0, 246)
+}
 
 h2 {
-    background-color: rgb(0, 17, 255);
+    background-color: rgb(208, 255, 0);
     display: inline-block;
-    padding: 10px 50px;
-    height: 300px;
-    width: 300px;
-    /*---------------------------*/
+    padding: 100px;
     box-sizing: border-box;
-    box-sizing: content-box;
+    text-align: center;
+    margin: 100px;
+    border: 6px dashed blue;
+    border: 8px dotted green;
+    border-radius: 1em;
+
+}
+
+p {
+    background-color: red;
+    display: inline-block;
+    padding: 100px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 100px;
+    border: 8px dotted yellow;
+    border-radius: 12em;
 }
