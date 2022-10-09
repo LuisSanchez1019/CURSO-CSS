@@ -4,21 +4,50 @@
     font-size: 20px;
 }
 
-.cont {
-    margin: auto;
-    margin-top: 50px;
-    border: 4px solid red;
-    background: grey;
-    width:50% ;
-    padding: 20px ;
+.texto {
+    padding: 10%;
+    text-align: center;
 }
 
-.cont {
-    width: 50%;
+.texto::first-line{
+    color: blue;
+    font-size: 2em;
 }
 
-.cont img{
-    float: right;
-    width: 300px;
-    margin-right: 18px;
+.texto::first-letter{
+    color: brown;
+    font-size: 2em;
+}
+
+form {
+    margin: 100px auto ;
+    display: block;
+    padding: 80px;
+    width: 500px;
+    background-color: #666;
+
+}
+
+input{
+    padding: 6px;
+    width: 100%;
+}
+
+input::selection{
+    color: red;
+    background-color:yellow;
+}
+
+b{
+    padding: 6px;
+    width: 100%;
+}
+b::before{
+    content: "me suscribi ";
+    color: white;
+}
+b::after{
+    content: "Todo Tendencias";
+    color: red;
+    background: #614;
 }
