@@ -4,29 +4,25 @@
     font-size: 20px;
 }
 
-body{
-    background-color: #000;
-}
-.caja{
-    margin: 95px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid red;
-    background: rgba(194,190,192,1);
-    opacity: 1;
+div{
+    width: 35%;
+    display: inline-block;
+    padding: 20px;
+    background: #ddd;
 }
 
-.caja2{
-    margin: auto;
-    width: 200px;
-    height: 300px;
-    border: 5px solid red;
-    background-color: rgb(255,55,0);
+h1{
+    font-size: 24px ;
 }
-.caja3{
-    margin: 45px;
-    width: 200px;
-    height: 300px;
-    border: 5px solid red;
-    background-color: rgb(55,0,0);
+.caja2{
+    background: #bbb;
+}
+
+
+@media only screen and(max-width:800px){
+
+    div{
+        display: block;
+        width: 100%;
+    }
 }
