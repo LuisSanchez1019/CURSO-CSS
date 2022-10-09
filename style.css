@@ -4,17 +4,14 @@
     font-size: 30px;
 }
 
-h2 {
-    background-color: rgb(21, 0, 255);
+div {
+    width: 200px;
+    height: 200px;
+    background: rgb(255, 0, 0);
     display: inline-block;
-    padding: 100px;
-    box-sizing: border-box;
-    text-align: center;
-    margin: 20px 10px;
-    border-radius: 2em;
+}
 
-    /*----------sombras---------------*/
-    box-shadow: 30px 20px 10px 10px black;
-    text-shadow: 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff, 2px 2px 7px #fff;
-    transform: rotate(-45deg);
+.caja3 {
+    outline: 5px solid rgb(38, 0, 255);
+    position: relative;
 }
