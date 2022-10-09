@@ -1,12 +1,17 @@
-.contac-from{
-    font-size: 25px;
+*{
+    font-family: 'Lobster',cursive;
+    font-weight: 100;
+    font-size: 30px;
 }
 
-.contact-from__h2{
-    font-size: 2em;
-    font-family:sans-serif;
-    line-height: 2;
-    font-weight: 900;
-    color: blue;
+h2{
+    display: inline;
+    height: 400px;
+    width: 100px;
+}
+
+p{
+    height: 400px;
+    width: 190px;
 }
 
