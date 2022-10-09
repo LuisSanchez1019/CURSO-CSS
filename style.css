@@ -4,30 +4,14 @@
     font-size: 20px;
 }
 
-.caja1 {
-    height: 200px;
-    width: 200px;
-    background: slateblue;
-    transition: all 1s, border 0.5s;
-    border: 3px solid red;
-    text-align: center;
+a:link{
+    color:red;
+    background-color: blue ;
+    display: block;
 }
 
-.caja1:hover {
-    background: darkslateblue;
-    height: 300px;
-    width: 300px;
-    border-color: blue;
-}
-
-.caja2 {
-    padding: 20px;
-    background-color: rgb(204, 45, 59);
-    color: #fff;
-}
-
-.caja2:hover {
-    padding: 20px;
-    background: rgb(194, 191, 216);
-    color: #000;
+a:visited{
+    color: violet;
+    background-color: black;
+    display: block;
 }
