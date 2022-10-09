@@ -1,53 +1,33 @@
 * {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', sans-serif;
     font-weight: 100;
     font-size: 20px;
 }
 
-.texto {
-    padding: 10%;
+.caja1 {
+    height: 200px;
+    width: 200px;
+    background: slateblue;
+    transition: all 1s, border 0.5s;
+    border: 3px solid red;
     text-align: center;
 }
 
-.texto::first-line{
-    color: blue;
-    font-size: 2em;
+.caja1:hover {
+    background: darkslateblue;
+    height: 300px;
+    width: 300px;
+    border-color: blue;
 }
 
-.texto::first-letter{
-    color: brown;
-    font-size: 2em;
+.caja2 {
+    padding: 20px;
+    background-color: rgb(204, 45, 59);
+    color: #fff;
 }
 
-form {
-    margin: 100px auto ;
-    display: block;
-    padding: 80px;
-    width: 500px;
-    background-color: #666;
-
-}
-
-input{
-    padding: 6px;
-    width: 100%;
-}
-
-input::selection{
-    color: red;
-    background-color:yellow;
-}
-
-b{
-    padding: 6px;
-    width: 100%;
-}
-b::before{
-    content: "me suscribi ";
-    color: white;
-}
-b::after{
-    content: "Todo Tendencias";
-    color: red;
-    background: #614;
+.caja2:hover {
+    padding: 20px;
+    background: rgb(194, 191, 216);
+    color: #000;
 }
