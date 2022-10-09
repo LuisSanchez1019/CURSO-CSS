@@ -6,22 +6,26 @@
 
 
 
-.contenedor{
-    width: 300px;
-    height: 300px;
-    background: blue;
-    margin: 40px;
-    position: relative;
-    
-    
+div {
+
+    display: block;
+    background: rgb(15, 21, 57);
+    position: absolute;
+    margin: 100px;
+
 }
 
-.hijo{
-    background-color: orange;
-    height: 120px;
-    width: 120px;
-    position: relative;
-    top: -20px;
-    left: -20px;
-    z-index: -1;
+div div {
+    height: 75px;
+    width: 75px;
+    background: rgb(18, 0, 151);
+}
+
+.contenedor {
+
+    position: static;
+    border: 4px solid rgb(0, 0, 0);
+    margin: 50px auto;
+    height: 450px;
+    width: 450px;
 }
