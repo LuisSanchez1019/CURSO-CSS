@@ -4,14 +4,32 @@
     font-size: 30px;
 }
 
-div {
-    width: 200px;
-    height: 200px;
-    background: rgb(255, 0, 0);
-    display: inline-block;
+div{
+    width: 120px;
+    height: 120px;
+    background: rgb(255, 234, 0);
+    display: block;
 }
 
-.caja3 {
-    outline: 5px solid rgb(38, 0, 255);
+.caja1{
+    background-color: rgb(38, 0, 255); 
+}
+
+.caja2{
+    background-color: rgb(128, 0, 11);
     position: relative;
+    top: 60px;
+    left: 20px;
+    z-index: 100;
+}
+
+.caja3{
+    background-color: lightblue;
+    position: relative;
+    z-index: 10;
+    
+}
+
+.caja4{
+    background-color: rgb(204, 0, 255);
 }
