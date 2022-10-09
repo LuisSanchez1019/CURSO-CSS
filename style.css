@@ -4,14 +4,15 @@
     font-size: 20px;
 }
 
-a:link{
-    color:red;
-    background-color: blue ;
-    display: block;
+.caja{
+    width: 250px;
+    height:250px;
+    background: red;
+    margin: 25px;
+    transition: all 1s;
 }
 
-a:visited{
-    color: violet;
-    background-color: black;
-    display: block;
+.caja:active{
+    background:  blue;
+    width: 600px;
 }
