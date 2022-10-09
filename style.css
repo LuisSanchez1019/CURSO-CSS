@@ -5,14 +5,16 @@
 }
 
 .caja{
-    width: 250px;
-    height:250px;
-    background: red;
     margin: 25px;
     transition: all 1s;
 }
 
-.caja:active{
+.caja:focus{
     background:  blue;
     width: 600px;
+}
+
+.caja2 b:lang(en){
+    background: red;
+    padding: 20px;
 }
